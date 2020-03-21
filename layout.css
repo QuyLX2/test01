@@ -1,0 +1,43 @@
+*{margin: 0; padding: 0;}
+
+.mainheader:after {content: "";position: absolute;display: block;height: 30px;top: 74px;width: 100%;background: url(images/line-header1.png) no-repeat center;z-index: 0;} 
+.wraper{
+	display: grid;	
+	grid-template-columns: 1fr;
+	grid-template-rows: 75px 750px 615px 475px 400px;
+}
+.mainheader{
+		background: #111111;
+		display: flex;
+		z-index: 2;
+		border-bottom: 1px solid #86c741;
+		position: relative;
+}
+.header-center {
+    flex-grow: 1;
+}
+
+.header-right {
+    width: 25%;
+}
+
+.header-left {
+    width: 25%;
+    display: flex;
+
+}
+.slider{
+
+}
+.index{
+
+		background-attachment: fixed;
+		background-size: cover;
+}
+.event{
+		background-size: cover;
+		background-attachment: fixed;
+}
+.footer{
+
+}
